@@ -3,7 +3,7 @@
 const http = require('http');
 const redis = require('redis');
 
-const REDISHOST = process.env.REDISHOST || '10.223.15.115';
+const REDISHOST = process.env.REDISHOST || '10.104.240.220';
 const REDISPORT = process.env.REDISPORT || 6379;
 
 const client = redis.createClient(REDISPORT, REDISHOST);
